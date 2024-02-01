@@ -1,4 +1,7 @@
-package com.example.lab4t42;
+public class Circle extends Shape {
+    private Integer diameter;
 
-public class Circle extends Shape{
+    public void setDiameter(Integer d) {
+        diameter = d;
+    }
 }
